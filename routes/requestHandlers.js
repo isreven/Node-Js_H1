@@ -12,6 +12,7 @@ server.connection({port: 8080});
 
 
     function calculate(reply, cache) {
+        console.log("I'm in calculate");
         var count = 0;
         var allData = "";
         var params2 = {Bucket: BUCKET_NAME};
