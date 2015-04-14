@@ -3,7 +3,7 @@ var cache = require('./cacheLayer')();
 var requestHandler = require('./requestHandlers');
 var server = new Hapi.Server();
 var INDEX_KEY = 'indexOfGrades';
-server.connection({ port: 8888 });
+server.connection({ port: 8080 });
 
 server.route({
     method: 'GET',

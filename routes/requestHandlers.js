@@ -8,7 +8,7 @@ var BUCKET_NAME = 'israelsbucket';
 AWS.config.loadFromPath('./aws_config.json');
 var s3 = new AWS.S3();
 var server = new Hapi.Server();
-server.connection({port: 8888});
+server.connection({port: 8080});
 
 
     function calculate(reply, cache) {
