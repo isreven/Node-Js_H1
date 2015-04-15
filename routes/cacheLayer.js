@@ -3,7 +3,7 @@ module.exports = function () {
     var client;
     function setup() {
         var redis = require("redis");
-         client = redis.createClient(6379, '127.0.0.1', {});
+         client = redis.createClient(6379, '52.28.60.14', {});
         Promise.promisifyAll(client);
     }
 
