@@ -5,7 +5,7 @@ var INDEX_KEY = 'indexOfGrades';
 var numOfFilesInBucket;
 var BUCKET_NAME = 'israelsbucket';
 
-AWS.config.loadFromPath('./aws_config.json');
+AWS.config.loadFromPath('./aws_config1.json');
 var s3 = new AWS.S3();
 var server = new Hapi.Server();
 server.connection({port: 8080});
