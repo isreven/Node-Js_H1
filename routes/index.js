@@ -48,6 +48,6 @@ server.route({
 
 server.start(function () {
     console.log("ds");
-    cache.setup();
+  //  cache.setup();
     console.log('Server running at:', server.info.uri);
 });
